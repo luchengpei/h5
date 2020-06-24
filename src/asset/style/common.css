@@ -1,0 +1,24 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.red {
+  color: red;
+}
+.white {
+  color: #fff;
+}
+.bgc-red {
+  background-color: red;
+}
+
+.fixed-title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}

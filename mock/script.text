@@ -1,0 +1,17 @@
+打开 http://localhost:8080/api/project/ 即可查看到我们想要的数据：
+
+
+第三方包
+cnpm install json-server mockjs gulp-nodemon browser-sync gulp@3.9.1 --save-dev
+
+开服务
+npm run server
+npm run  mock
+
+app.vue 文件看使用办法，和mock文件夹的使用
+
+请求
+ axios.post(`api/project`, {})
+        .then((res) => {
+          console.log(res);
+        })
